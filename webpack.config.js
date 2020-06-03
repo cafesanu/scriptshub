@@ -47,11 +47,11 @@ module.exports = {
     new CopyPlugin([{
       from: 'src/popup',
       to: 'popup',
-      ignore: ['*.ts'],
+      ignore: ['*.ts', '*.scss'],
     }, {
       from: 'src/options',
       to: 'options',
-      ignore: ['*.ts'],
+      ignore: ['*.ts', '*.scss'],
     }, {
       from: 'src/assets',
       to: 'assets'

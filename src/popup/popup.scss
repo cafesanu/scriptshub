@@ -1,0 +1,32 @@
+.scriptsHubPopup {
+  margin: 0;
+
+  .list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .listItem {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+
+    &:hover {
+      background-color: #ddd;
+      cursor: pointer;
+    }
+  }
+
+  .listItemIcon {
+    margin-right: 5px;
+  }
+
+  .listItemText {
+    white-space: nowrap;
+  }
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
